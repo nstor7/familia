@@ -1,10 +1,10 @@
 <button ng-hide="cmtsCtrl.show" ng-click = "cmtsCtrl.toggle()">Mostrar Comentarios <spam>{{cmtsCtrl.comments.length}}</spam></button>
   <div ng-show="cmtsCtrl.show">
       <div>
-          <h1>Comentarios <button ng-click = "cmtsCtrl.toggle()"></button></h1>
+          <h1>Comentarios <button ng-click ="cmtsCtrl.toggle()"></button></h1>
       </div>
       <div>
-          <form name="commentsForm" ng-submit="commentForm.$vaild && cmtsCtrl.addComment()" novalidate>
+          <form name="commentsForm" ng-submit="commentsForm.$valid && cmtsCtrl.addComment()" novalidate>
              <h2>valid: {{commentsForm.$valid}}</h2>
               <div>
                   <div>
@@ -25,10 +25,10 @@
           </form>
       </div>
       <div ng-repeat="comment in cmtsCtrl.comments">
-          <p>{{cmtsCtrl.comment.body}}</p>
-          <p>Comentario por: <a ng-if="!cmtsCtrl.comment.anonimo" href="{{cmtsCtrl.comment.email}}">{{cmtsCtrl.comment.email}}</a>
-          <em ng-if="cmtsCtrl.comment.anonimo">Anonimo</em>
-          <spam>{{cmtsCtrl.comment.date | date : 'medium'}}</spam>
+          <p>{{comment.body}}</p>
+          <p>Comentario por: <a ng-if="!comment.anonimo" href="{{comment.email}}">{{comment.email}}</a>
+          <em ng-if="comment.anonimo">Anonimo</em>
+          <spam>{{comment.date | date : 'medium'}}</spam>
           </p>
       </div>
   </div>

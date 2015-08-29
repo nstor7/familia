@@ -24,13 +24,26 @@
             templateUrl: 'parcial/familia-trabajos.html'
         };
     })
+    .directive('tabDirective', function(){
+        return {
+            restrict: 'E',
+            templateUrl: 'parcial/tab-menu.html',
+            controller: function(){
+                this.tab = 1;
+        this.selectTab = function(tab){
+            this.tab = tab;
+        };
+            },
+            controllerAs: 'tabs'
+        };
+    })
    .directive('familiaComentario', function(){
         return {
             restrict: 'E',
             templateUrl: 'parcial/familia-comentario.html',
             controller: function(){
-                this.comments = [];
-        this.comment = [];
+        this.comments = [];
+        this.comment = {};
         this.show = false;
         this.toggle = function(){
             this.show = !this.show;
@@ -43,25 +56,11 @@
         this.addComment = function(){
             this.comment.date = Date.now();
             this.comments.push(this.comment);
-            this.comment =[];
+            this.comment = {};
         };
             },
             controllerAs: 'cmtsCtrl'
         };
-        
-    })
-    
-   .directive('tabDirective', function(){
-        return {
-            restrict: 'E',
-            templateUrl: 'parcial/tab-menu.html',
-            controller: function(){
-                this.tab = 1;
-        this.selectTab = function(tab){
-            this.tab = tab;
-        };
-            },
-            controllerAs: 'tabs'
-        };
     });
-})();
+    })();
+   
