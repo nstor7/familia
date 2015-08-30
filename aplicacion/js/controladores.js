@@ -1,6 +1,12 @@
 (function(){
     angular.module('familia.controllers', [])
-   .controller('familiaresController' , [])
+   .controller('familiaresController' , ['$scope', '$http', function($scope, $http){
+       $scope.familiares =[];
+       $http.get('/familiares.json')
+           .success(function(data){
+                $scope.familiares = data;
+       })
+   }])
     .controller('familiaController', function(){
         this.familia = {
             id: 001,
