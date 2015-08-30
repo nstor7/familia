@@ -1,9 +1,69 @@
-[ {
+[ 
+    {
             "id": "001",
-            "nombre": 'Sonia',
-            'parentezco': 'Mamá',
-            'vivienda': 'Villa Lucre',
-            'ocupaciones': ['Profesora, Remon Cantera', 'Liturgia, Santa María'],
-            'imagen': 'https://scontent-mia1-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/10612634_669406919803452_2235041199641646304_n.jpg?oh=1fb665bc2c8914348e0cab44986847c2&oe=56800AE4'
+            "nombre": "Sonia",
+            "parentezco": "Mamá",
+            "vivienda": "Villa Lucre",
+            "ocupaciones": [
+                "Profesora, Remon Cantera",
+                "Liturgia, Santa María"
+            ],
+            "imagen": "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/10612634_669406919803452_2235041199641646304_n.jpg?oh=1fb665bc2c8914348e0cab44986847c2&oe=56800AE4"
+        },
+    {
+            "id": "002",
+            "nombre": "José",
+            "parentezco": "Hermano",
+            "vivienda": "Beethania",
+            "ocupaciones": [
+                "Arquitecto",
+                "Estudiante, Washington"
+            ],
+            "imagen": "https://scontent-mia1-1.xx.fbcdn.net/hphotos-frc3/v/t1.0-9/1005244_421843181258401_100254846_n.jpg?oh=32aacbf3037ccc556320a67f326f352d&oe=567F6938"
+        },
+    {
+            "id": "003",
+            "nombre": "Loyda de Valdez",
+            "parentezco": "Tia",
+            "vivienda": "Beethania",
+            "ocupaciones": [
+                "Programadora, Sadsa",
+                "Presupuesto, Santa María"
+            ],
+            "imagen": "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1512648_10153694926225014_9141820_n.jpg?oh=8275094412cb41e1d91842ca5741004a&oe=567251D8"
+        },
+    {
+            "id": "004",
+            "nombre": "Toñi Valdez",
+            "parentezco": "Tio",
+            "vivienda": "Beethania",
+            "ocupaciones": [
+                "Programador, Sadsa",
+                "Presupuesto, Santa María"
+            ],
+            "imagen": "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1512648_10153694926225014_9141820_n.jpg?oh=8275094412cb41e1d91842ca5741004a&oe=567251D8"
+        },
+    {
+            "id": "005",
+            "nombre": "Rosa de Da Fonte",
+            "parentezco": "Tia",
+            "vivienda": "Vista Magna",
+            "ocupaciones": [
+                "Ama de Casa",
+                "Adoradora Nocturna, Santuario"
+            ],
+            "imagen": "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/10150627_663540503723427_4182391938151652158_n.jpg?oh=e4505bb1d05b525de6fefd98e47ffc5c&oe=5669BF91"
+        },
+       {
+            "id": "006",
+            "nombre": "Nelson Da Fonte",
+            "parentezco": "Tio",
+            "vivienda": "Vista Magna",
+            "ocupaciones": [
+                "Profesor, USMA",
+                "Adorador Nocturno, Santuario"
+            ],
+            "imagen": "https://scontent-mia1-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/10150627_663540503723427_4182391938151652158_n.jpg?oh=e4505bb1d05b525de6fefd98e47ffc5c&oe=5669BF91"
         }
+    
  ]

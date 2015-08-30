@@ -1,6 +1,10 @@
 <div>
     <h1>Lista de Familiares</h1>
 </div>
+
 <div ng-repeat="familia in familiares">
-    <familiar-nombre></familiar-nombre>
+    <a href="/familiar/{{familia.id}}">
+        <familia-nombre></familia-nombre>
+        <familia-imagen></familia-imagen>
+    </a>
 </div>
