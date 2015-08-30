@@ -2,7 +2,10 @@
     var app = angular.module('familia', [
         'ngRoute', 
         'familia.controllers', 
-        'familia.directives']);  
+        'familia.directives',
+        'familia.services'
+    
+    ]);  
    
     app.config(['$routeProvider', function ($routeProvider) {
        $routeProvider
