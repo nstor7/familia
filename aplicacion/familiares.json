@@ -23,7 +23,7 @@
         },
     {
             "id": "003",
-            "nombre": "Loyda de Valdez",
+            "nombre": "Loyda",
             "parentezco": "Tia",
             "vivienda": "Beethania",
             "ocupaciones": [
@@ -34,7 +34,7 @@
         },
     {
             "id": "004",
-            "nombre": "Toñi Valdez",
+            "nombre": "Toñi",
             "parentezco": "Tio",
             "vivienda": "Beethania",
             "ocupaciones": [
@@ -45,7 +45,7 @@
         },
     {
             "id": "005",
-            "nombre": "Rosa de Da Fonte",
+            "nombre": "Rosa",
             "parentezco": "Tia",
             "vivienda": "Vista Magna",
             "ocupaciones": [
@@ -56,7 +56,7 @@
         },
        {
             "id": "006",
-            "nombre": "Nelson Da Fonte",
+            "nombre": "Nelson",
             "parentezco": "Tio",
             "vivienda": "Vista Magna",
             "ocupaciones": [

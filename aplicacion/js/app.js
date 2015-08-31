@@ -2,7 +2,9 @@
     var app = angular.module('familia', [
         'ngRoute', 
         'familia.controllers', 
-        'familia.directives']);  
+        'familia.directives',
+        'familia.services'
+    ]);  
    
     app.config(['$routeProvider', function ($routeProvider) {
        $routeProvider
@@ -13,7 +15,6 @@
         .when('/familiar/:id', {
             templateUrl: 'vistas/familiar.html',
             controller: 'familiaController',
-            controllerAs: 'fliaCtrl'
        })
         .otherwise({
             redirectTo: '/'
