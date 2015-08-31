@@ -14,9 +14,9 @@
             templateUrl: 'vistas/familiar.html',
             controller: 'familiaController',
             controllerAs: 'fliaCtrl'
-       }).
-       otherwise({
-        redirectTo: '/'
+       })
+        .otherwise({
+            redirectTo: '/'
        });
 }]);
 })();
