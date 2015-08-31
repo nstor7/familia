@@ -15,11 +15,10 @@
        })
         .when('/familiar/:id', {
             templateUrl: 'vistas/familiar.html',
-            controller: 'familiaController',
-            controllerAs: 'fliaCtrl'
-       }).
-       otherwise({
-        redirectTo: '/'
+            controller: 'familiaController'
+       })
+       .otherwise({
+           redirectTo: '/'
        });
 }]);
 })();
